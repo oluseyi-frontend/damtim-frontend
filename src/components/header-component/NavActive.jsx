@@ -89,7 +89,7 @@ const [anchorEl, setAnchorEl] = React.useState(null);
               >
                 <Typography className={styles.heading}>Shop</Typography>
               </AccordionSummary>
-              <AccordionDetails>
+              <AccordionDetails className={styles.myaccordion_details}>
                 {categories.map((category) => {
                   return (
                     <div className={styles.aside_accordion} key={category._id}>
@@ -129,8 +129,7 @@ const [anchorEl, setAnchorEl] = React.useState(null);
                 <div className={styles.navactive_links}>
                   <Link to="/sign_in">Login</Link>
                   <Link to="/create_account">Create account</Link>
-                   <Link to="/sign_in">Login</Link>
-                  <Link to="/create_account">Create account</Link>
+              
                 </div>
               </AccordionDetails>
             </Accordion>

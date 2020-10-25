@@ -32,7 +32,7 @@ justify-content: center;
 .centreContent h1{
     color:white;
     text-transform: uppercase;
-    font-family: cursive;
+
 }
 .rightContent {
     display: flex;
@@ -222,6 +222,13 @@ color: #ffffff !important;
 }
 .navactive_links a {
     margin: .5rem 0;
+}
+
+
+.myaccordion_details {
+    display: flex;
+    padding: 8px 16px 16px;
+    flex-direction: column;
 }
 @media(max-width: 1200px) {
    
