@@ -1,0 +1,143 @@
+.cartPage{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.cartContainer {
+    display: flex;
+    
+      margin-top: 10rem;
+      padding-bottom: 16rem;
+}
+
+.iconBtn {
+    padding: .2rem !important;
+    font-size: small !important;
+    margin: 0 .2rem !important;
+}
+
+
+.myFormControl{
+    width: 100%;
+}
+.cartCard{
+    background-color: #EFEFEF !important;
+}
+.main_card{
+    margin-top: 2rem;
+    background-color: #EFEFEF !important;
+
+}
+.card_content{
+    display: flex;
+    align-items: center;
+}
+.card_content p{
+    margin: 0;
+}
+
+.card_content img {
+    height: 200px;
+    width: 200px;
+}
+
+.itemDetails{
+    display: flex;
+    flex-direction: column;
+}
+.qtyBtn{
+display: flex;
+margin-bottom: .5rem;
+align-items: center;
+justify-content: space-between;
+}
+
+.item_total{
+    display: flex;
+    margin-bottom: .5rem;
+    justify-content: space-between;
+}
+.removeBtn{
+    background-color: #ffc107 !important;
+}
+.sizeAction{
+
+}
+.colorAction{
+    margin-bottom: 1rem;
+}
+
+.name_price{
+    display: flex;
+    margin-bottom: .5rem;
+    justify-content: space-between;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+.summary_card{
+        background-color: #EFEFEF !important;
+        margin-top: 2rem;
+}
+.tax{
+    display: flex;
+    justify-content: space-between;
+}
+.sub_total {
+    display: flex;
+    justify-content: space-between;
+}
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+.cart_total{
+    width: 100%;
+    
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.cartTotal{
+   width: 30%;
+   margin-top: 1rem;
+
+}
+
+.cartTotal button{
+width: 100%;
+}
+
+
+@media(max-width: 1200px) {}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 768px) {
+    .cartTotal {
+        width: 40%;
+        margin-top: 1rem;
+
+    }
+}
+
+@media(max-width: 576px) {
+   .cartTotal {
+       width: 50%;
+       margin-top: 1rem;
+
+   }
+}
+
+@media(max-width: 380px) {
+    .cartTotal {
+        width: 70%;
+        margin-top: 1rem;
+
+    }
+}

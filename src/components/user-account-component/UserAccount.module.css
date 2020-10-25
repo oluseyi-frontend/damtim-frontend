@@ -1,0 +1,29 @@
+.user_account{
+    display: flex;
+}
+
+.my_container {
+    margin: 8rem;
+}
+
+.my_card{
+    margin-bottom: 2rem;
+}
+.form {
+display: flex;
+flex-direction: column;
+}
+
+.text_field{
+    width: 100%;
+  
+}
+
+.myForm_control {
+    width: 100%;
+
+}
+.submit_btn{
+    margin-top: 2rem !important;
+    padding: .8rem !important;
+}

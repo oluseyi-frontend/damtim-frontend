@@ -1,0 +1,120 @@
+.categoryPage{
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+ display: flex;
+
+
+ 
+}
+.root img {
+    height: 200px;
+    width: 100%
+}
+
+.customerFav {
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 5rem !important;
+    color: rgb(104, 99, 99);
+    margin-bottom: 2rem !important;
+}
+
+.cakeImg {
+    margin-bottom: 1rem;
+}
+
+.root {
+    width: 100%;
+    padding: 0rem !important;
+}
+
+.root img {
+    height: 200px;
+    width: 100%
+}
+
+.root:hover img {
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+.modalTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardActions {
+    padding: 0rem !important;
+}
+
+.cardActions a {
+    width: 100%;
+    text-decoration: none;
+}
+
+.cardActions button {
+    width: 100%;
+    background-color: #F5187D;
+}
+
+.cakeName {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cakePrice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dialogContent img {
+    height: 400px;
+    width: 100%;
+}
+
+.dialogActions {
+    display: flex !important;
+    width: 100% !important;
+    justify-content: space-between !important;
+}
+
+.dialogActions button {}
+
+.categoryBanner{
+    width: 100%;
+    height: 40vh;
+    background: url('./../images/3654820.jpg');
+    object-fit: cover;
+    background-size: cover;
+    margin-top: 8rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.overlay h4{
+    z-index: 2;
+    font-size: 2.2rem;
+}

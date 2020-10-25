@@ -1,0 +1,52 @@
+.create_account {
+    display: flex;
+
+}
+
+.my_container {
+    margin-top: 8rem;
+ 
+    align-items: center;
+}
+form{
+    background-color: white;
+}
+.first_grid{
+background-color: #1480D0;
+color: white;
+padding: 4rem 2rem 8rem 2rem;
+}
+
+.my_paper{
+  
+    padding: 2rem 1rem ;
+}
+.my_divider{
+    background-color: white !important;
+    margin: 1rem 0 !important;
+}
+.my_form_divider {
+    background-color: #1480D0 !important;
+    margin: 1rem 0 !important;
+}
+
+.general_grid{
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.274);
+}
+.my_typo{
+font-size: small !important;
+line-height: 25px !important;
+}
+
+.text_field {
+    width: 100%;
+    margin: 1rem 0 !important;
+}
+
+.create_btn {
+    width: 100%;
+    padding: .8rem !important;
+    margin-top: 1rem !important;
+}

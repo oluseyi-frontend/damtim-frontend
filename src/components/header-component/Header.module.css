@@ -1,0 +1,324 @@
+.header{
+    width: 100%;
+position: absolute;
+background-color:#f5187bc0;
+z-index: 2;
+
+
+}
+.leftContent {
+padding: 0 !important;
+}
+.my_grid{
+     position: relative !important;
+    overflow: hidden !important;
+}
+.leftContent button{
+    margin: 0 2rem 0rem 0rem;
+    font-size: 1rem;
+
+}
+.leftContent svg{
+    display: none !important;
+    color: white;
+}
+.leftContent button{
+    color: white;
+}
+.centreContent{
+display: flex;
+justify-content: center;
+}
+.centreContent h1{
+    color:white;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.rightContent {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+
+}
+.rightContent svg{
+    margin: 0 0 0 3rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.container {
+    padding: 2.5rem 0rem 0rem 0rem;
+    display: flex;
+    align-items: center !important;
+   position: relative;
+}
+
+.container a{
+    color: black;
+    text-decoration: none;
+}
+   .navActive {
+       display: inline-flex;
+       width: 100%;
+       height: 100%;
+       top: 0;
+       left: 0;
+       bottom: 0;
+         position: absolute;
+       transform: translateX(-100%);
+       transition: all 1s ease;
+        background-color: #272532;
+        z-index: 2;
+   }
+
+   .asideActive {
+       display: inline-flex;
+       transform: translateX(0);
+       width: 100%;
+       height: 100%;
+      
+ position: fixed;
+       background-color: #272532;
+       transition: all .7s ease;
+     overflow-y: scroll;
+    
+      
+   }
+
+  .innerContainer {
+      margin: 2rem 1rem;
+     
+  }
+  .innerContainer h6{
+      color: white;
+      margin-bottom: 1rem;
+  }
+.formControl {
+    width: 100%;
+    margin-bottom: 1rem !important;
+}
+
+.formControl input {
+    padding: .6rem !important;
+}
+.adornment {
+    background-color:rgb(255, 255, 255) !important;
+    
+}
+
+.divider{
+    margin: 1rem 0rem !important;
+    background-color: white !important;
+}
+
+.close {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.close svg{
+    color: white !important;
+}
+.searchContainer{
+    display: flex;
+    overflow: hidden;
+   
+}
+.searchInput{
+  
+    transform: translateX(100%);
+  
+}
+.searchInputActive {
+ 
+    transform: translateX(0);
+    transition: all 2s ease;
+}
+.formControl{
+    width: 100%;
+}
+.btn{
+    width: 100% !important;
+    display: flex;
+  
+    justify-content: flex-start !important;
+    font-size: 1rem !important;
+color: #ffffff !important;
+}
+.btn:hover{
+   
+    padding-left: 1rem;
+    transition: all 1s ease;
+}
+.icon_btn {
+
+}
+.icon_btn:hover{
+   
+}
+
+.my_accordion {
+    width: 100%;
+    background-color:transparent !important;
+    color: rgb(255, 255, 255) !important;
+}
+.my_accordion svg {
+    color: white;
+}
+
+.accordion_summary{
+    padding: 0 !important;
+}
+
+.svg_logo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    align-items: center;
+    color: white;
+}
+.svg_logo svg {
+    font-size: 2rem;
+}
+.svg_logo svg:hover{
+    transform: rotate(360deg) !important;
+}
+
+.menu_item a{
+    text-decoration: none;
+    color: #272532;
+    width: 100%;
+}
+.rightContent ul {
+    padding: 0 !important;
+}
+.menu_item{
+    padding-left: .5rem !important;
+    padding-right: .5rem !important;
+    z-index: 3;
+}
+.my_menu{
+    padding: 0rem !important;
+}
+.aside_accordion{
+    display: flex;
+    flex-direction: column;
+}
+
+.aside_accordion a {
+    margin: .5rem 0rem;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+.navactive_links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.navactive_links a {
+    margin: .5rem 0;
+}
+@media(max-width: 1200px) {
+   
+   
+}
+
+@media(max-width: 992px) {
+ 
+}
+
+@media(max-width: 768px) {
+    .my_grid{
+        display: flex !important;
+    }
+    .icon_btn {
+        padding: 0 !important;
+    }
+   
+    .rightContent svg {
+        margin: 0 0 0 1.5rem;
+        font-size: 1.5rem;
+    }
+   .leftContent{
+      
+   }
+   .leftContent svg {
+       display: inline-flex !important;
+   }
+   .centreContent {
+
+       justify-content: flex-start;
+   }
+   .leftContent button{
+        display: none;
+   }
+   .rightContent {
+       display: none;
+   }
+     .headerInput {
+         display: none !important;
+     }
+    .navActive {
+        display: inline-flex;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        position: absolute;
+        transform: translateX(-100%);
+        transition: all 0s ease;
+        background-color: #272532;
+        z-index: 2;
+    }
+
+    .asideActive {
+        display: inline-flex;
+        transform: translateX(0);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: fixed;
+        background-color: rgba(255, 255, 255);
+        transition: all .7s ease;
+    }
+    .asideContainer {
+       background-color: #272532;
+        height: 100%;
+        margin: 0 !important;
+        
+        width: 60% !important;
+
+    }
+   
+}
+
+@media(max-width: 576px) {
+   .container {
+       padding: 2.5rem .7rem 0rem .7rem !important;
+
+   }
+  .asideContainer {
+      width: 60% !important;
+  }
+  .innerContainer{
+      margin: 2rem 0rem;
+  }
+}
+
+@media(max-width: 380px) {
+   .asideContainer {
+       width: 80% !important;
+   }
+    .innerContainer {
+        margin: 2rem 0rem;
+    }
+}

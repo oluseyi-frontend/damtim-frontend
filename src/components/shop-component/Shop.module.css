@@ -1,0 +1,40 @@
+.shop_dropdown {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  top: 0;
+  transform: translateY(-100%);
+  transition: all 1s ease;
+
+}
+
+
+.shop_dropdown_active {
+  transform: translateY(0%);
+  transition: all 1s ease;
+  position: fixed;
+  background-color: #ffffff;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+.my_container {
+  align-items: center !important;
+  display: flex !important;
+  height: 100% !important;
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+
+
+}
+
+.my_container img {
+  height: 120px;
+  width: 120px;
+}
+
+.my_container a {
+  text-decoration: none;
+  color: rgb(255, 81, 0);
+}

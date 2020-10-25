@@ -1,0 +1,86 @@
+.banner{
+   
+    width: 100%;
+    background: url(./../images/4193770.jpg);   
+       background-repeat: no-repeat;
+       background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 1;
+overflow: hidden;
+position: relative;
+}
+
+.btn{
+    background-color: #F5187D;
+    color: white;
+    padding: .8rem 4rem;
+    border: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: all 1s ease;
+    box-shadow: 0px 0px 8px rgb(white, white, white)
+}
+.btn:focus{
+    outline: none;
+}
+.bannerContainer{
+    align-items: center;
+    text-align: center;
+    margin: 15rem;
+    z-index: 2;
+
+}
+.bannerContainer h2{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.bannerContainer h3{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+@media(max-width: 1200px) {}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 768px) {
+    
+  .bannerContainer h2 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+  }
+
+  .bannerContainer h3 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+  }
+ 
+
+
+}
+
+@media(max-width: 576px) {
+    
+}
+
+@media(max-width: 380px) {
+  .bannerContainer h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+  }
+
+  .bannerContainer h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+  }
+}

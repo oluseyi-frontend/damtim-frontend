@@ -1,0 +1,34 @@
+.sign_in {
+
+    display: flex;
+background-color: rgba(0, 0, 0, 0);
+}
+
+.my_container {
+    margin: 8rem;
+}
+.my_header_typo{
+    text-align: center;
+}
+.my_form {
+    display: flex;
+    flex-direction: column;
+
+}
+.my_form_divider{
+    margin: 1rem 0rem !important;
+}
+.text_field{
+    width: 100%;
+    margin: 1rem 0rem !important;
+}
+
+.create_btn {
+    
+
+}
+
+.login_btn {
+margin-top: 1rem !important;
+padding: .8rem !important;
+}

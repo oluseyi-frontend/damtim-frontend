@@ -1,0 +1,121 @@
+.checkout{
+   display: flex;
+    background-color: #F5F5F5;
+}
+
+
+.container {
+ margin-top: 6rem;
+ margin-bottom: 70vh;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid{
+    width: 100% !important;
+}
+
+.grid input {
+    width: 100% !important;
+}
+.heading {
+    color: white;
+}
+.text_field {
+    width: 100%;
+}
+
+.myForm_control {
+    width: 100%;
+}
+
+.accordion_summary {
+    background-color: #1D4861 !important;
+}
+
+.accordion_summary_active {
+    background-color: #28a745 !important;
+}
+.accordion_summary2 {
+    background-color: #1D4861 !important;
+}
+
+.accordion_summary_active2 {
+    background-color: #28a745 !important;
+}
+.accordion_summary3 {
+    background-color: #1D4861 !important;
+}
+
+.accordion_summary_active3 {
+    background-color: #28a745 !important;
+}
+
+.my_accordion{
+    margin: 1rem 0rem;
+}
+
+.proceed_div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.proceed_div button{
+    padding: 0;
+}
+.proceed_div a {
+    padding: .5rem 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+.proceed_btn {
+    background-color: #1D4861 !important;
+}
+
+.proceed_btn_active{
+     background-color: #28a745 !important;
+}
+
+.my_card {
+    margin: 1rem 0rem;
+    width: 100%;
+}
+
+.my_card img {
+    height: 100px;
+    width: 100px;
+}
+
+.item_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin: .6rem 0rem !important;
+
+}
+.subtotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shipping {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .6rem;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my_divider {
+    margin: .6rem 0rem !important;
+}

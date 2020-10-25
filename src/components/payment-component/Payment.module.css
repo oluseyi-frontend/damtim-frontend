@@ -1,0 +1,73 @@
+
+.payment_page{
+    display: flex;
+}
+.verify {
+    display: flex;
+}
+
+.container {
+    margin-top: 8rem;
+    margin-bottom: 70vh;
+}
+.my_card{
+    margin-top: 2rem;
+}
+.card_content{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.card_actions{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_actions button{
+    padding: 1rem;
+    border: 2px solid #B0E33C;
+}
+
+.paypal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paystack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details_card_content p {
+    text-align: center;
+}
+.item_details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+.item_details img {
+    height: 100px;
+    width: 100px;
+}
+
+.total_fee{
+    display: flex;
+    justify-content: space-between;
+}
+.details_card_actions{
+    display: flex;
+    justify-content: flex-end;
+}
+.details_card_actions a{
+text-decoration: none;
+
+}
+.details_card_actions button{
+    background-color: #B0E33C;
+}
